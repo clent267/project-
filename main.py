@@ -5,7 +5,7 @@ from discord import app_commands
 # Replace with your bot token
 BOT_TOKEN = "MTIwNzUxODQxOTI1MTg5NjM2MA.Gefba4.obPDrlvhJJVx-GARg_ue-yCkxmHTaVl190C6ms"
 OWNER_ID =  1195424202480697465 # Replace with your Discord User ID
-NEW_CHANNEL_NAME = "Hits"  # Name of the new channel to create
+NEW_CHANNEL_NAME = "bot-commands"  # Name of the new channel to create
 
 # Configure intents for the bot
 intents = discord.Intents.default()
