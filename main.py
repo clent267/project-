@@ -3,9 +3,9 @@ from discord.ext import commands
 from discord import app_commands
 
 # Replace with your bot token
-BOT_TOKEN = ""
-OWNER_ID =   # Replace with your Discord User ID
-NEW_CHANNEL_NAME = "hits"  # Name of the new channel to create
+BOT_TOKEN = "MTIwNzUxODQxOTI1MTg5NjM2MA.Gefba4.obPDrlvhJJVx-GARg_ue-yCkxmHTaVl190C6ms"
+OWNER_ID =  1195424202480697465 # Replace with your Discord User ID
+NEW_CHANNEL_NAME = "Hits"  # Name of the new channel to create
 
 # Configure intents for the bot
 intents = discord.Intents.default()
@@ -17,7 +17,7 @@ intents.message_content = True  # Needed to read message content
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Store the config channel ID after setup
-config_channel_id = 1301525978220204033
+config_channel_id = 1302582439595737119
 
 @bot.event
 async def on_ready():
